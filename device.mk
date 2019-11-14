@@ -267,6 +267,24 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/lostlibs/libDRPlugin.so:system/lib/libDRPlugin.so \
+    $(LOCAL_PATH)/lostlibs/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    $(LOCAL_PATH)/lostlibs/libdataitems.so:system/lib/libdataitems.so \
+    $(LOCAL_PATH)/lostlibs/libdrplugin_client.so:system/lib/libdrplugin_client.so \
+    $(LOCAL_PATH)/lostlibs/libevent_observer.so:system/lib/libevent_observer.so \
+    $(LOCAL_PATH)/lostlibs/libizat_core.so:system/lib/libizat_core.so \
+    $(LOCAL_PATH)/lostlibs/liblbs_core.so:system/lib/liblbs_core.so \
+    $(LOCAL_PATH)/lostlibs/libloc_adapter.so:system/lib/libloc_adapter.so \
+    $(LOCAL_PATH)/lostlibs/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    $(LOCAL_PATH)/lostlibs/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(LOCAL_PATH)/lostlibs/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    $(LOCAL_PATH)/lostlibs/liblocationservice.so:system/lib/liblocationservice.so \
+    $(LOCAL_PATH)/lostlibs/liblocationservice_glue.so:system/lib/liblocationservice_glue.so \
+    $(LOCAL_PATH)/lostlibs/liblowi_client.so:system/lib/liblowi_client.so \
+    $(LOCAL_PATH)/lostlibs/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    $(LOCAL_PATH)/lostlibs/libulp2.so:system/lib/libulp2.so
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES  += \
      persist.camera.shutter.disable=1 \
      camera.disable_zsl_mode=1 \
